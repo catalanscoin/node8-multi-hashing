@@ -20,9 +20,9 @@
 #include <malloc.h>
 #endif
 
-#define MEMORY          262144 /* 256KB - 2^18 */
-#define ITER            131072 /* 2^17 */
-#define ITER_DIV        65536 /* 2^16 */
+#define MEMORY          98304 /* 96KB - 2^15*3 */
+#define ITER            49152 /* 2^14*3 */
+#define ITER_DIV        24576 /* 2^13*3 */
 #define AES_BLOCK_SIZE  16
 #define AES_KEY_SIZE    32 /*16*/
 #define INIT_SIZE_BLK   8
